@@ -22,9 +22,21 @@ class HomeController extends Controller
         return view('about');
     }
 
-    public function about()
+    public function home()
     {
-        return view('about');
+        return view('welcome');
+    }
+    
+    public function products()
+    {
+        return view('products');
     }
 
+
+    public function store()
+    {
+        return view('store');
+    }
+
+   
 }

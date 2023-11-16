@@ -20,6 +20,8 @@ Route::get('/', function () {
 });
 
 Route::get('/about', [HomeController::class, 'index'] )->name('about');
-
+Route::get('/welcome', [HomeController::class, 'home'])->name('home');
+Route::get('/products', [HomeController::class, 'products'])->name('products');
+Route::get('/store', [HomeController::class, 'store'])->name('store');
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
