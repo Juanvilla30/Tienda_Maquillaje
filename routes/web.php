@@ -25,3 +25,4 @@ Route::get('/products', [HomeController::class, 'products'])->name('products');
 Route::get('/store', [HomeController::class, 'store'])->name('store');
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+

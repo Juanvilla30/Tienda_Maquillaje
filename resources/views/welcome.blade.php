@@ -7,6 +7,22 @@
         <meta name="author" content="" />
         <title>KTVARIETYINMAKEUP - Tienda virtual de maquillaje</title>
         <link rel="icon" type="image/x-icon" href="assets/ico.ico" />
+        <style>
+            /* Estilos opcionales para el ícono de Instagram */
+            #instagram-icon {
+              width: 45px; /* Ajusta el tamaño según tus necesidades */
+              float: auto;
+              cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
+            }
+          </style>
+           <body>
+
+            <!-- Enlace a tu perfil de Instagram -->
+            <a href="https://instagram.com/kt.varietyinmakeup?igshid=MzMyNGUyNmU2YQ==" target="_blank" rel="noopener noreferrer">
+              <!-- Imagen del ícono de Instagram -->
+              <img id="instagram-icon" src="assets/instagram.png" alt="Instagram">
+            </a>
+          </body>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
@@ -29,9 +45,9 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{route('home')}}">Home</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ route('about') }}">About</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{route('products')}}">Products</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{route('store')}}">Store</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{route('about') }}">Sombras</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{route('products')}}">Skincare</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{route('store')}}">Iluminadores</a></li>
                     </ul>
                 </div>
             </div>
